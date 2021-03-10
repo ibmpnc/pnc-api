@@ -36,7 +36,7 @@ public class ApplicationBootstrap implements ApplicationListener<ContextRefreshe
                 log.info(trans.getType());
                 log.info("Amount " + trans.getAmount());
                 log.info(trans.getType());
-                // this.accountService.createTransaction(trans);
+                this.accountService.createTransaction(trans);
             }
         }
     }
