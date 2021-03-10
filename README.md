@@ -1,0 +1,1 @@
+Simple project to test Spring boot Restful application with Mysql DB on Openshift 
